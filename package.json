@@ -1,0 +1,20 @@
+{
+  "name": "metapm-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for MetaPM — allows Claude Desktop to manage handoffs",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node dist/test_mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

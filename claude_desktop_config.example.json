@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "metapm": {
+      "command": "node",
+      "args": ["G:/My Drive/Code/Python/metapm-mcp/dist/index.js"],
+      "env": {
+        "METAPM_URL": "https://metapm.rentyourcio.com",
+        "METAPM_API_KEY": ""
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "G:/My Drive/Code/Python"]
+    }
+  }
+}
